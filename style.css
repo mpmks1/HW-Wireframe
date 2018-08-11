@@ -1,1 +1,110 @@
 /* style sheet for easier homework */
+/* * signifies attributes apply to all of code */
+*{
+    box-sizing:border-box;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+/* element selectors */
+
+body {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    padding: 0px;
+}
+
+header{
+    background: #ebebeb;
+    height: 76px;
+    padding-top: 25px;
+    margin-top: 5px;
+}
+
+nav{
+    background: #ebebeb;
+    height: 76px;
+    padding-top: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+section{
+    background: #ebebeb;
+    width: 495px;
+    height: 260px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+article{
+    color: #ebebeb;
+    background: #777;
+    height: 160px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px; 
+    padding: 10px;
+}
+
+h1{
+    color: #777;
+    background: #ebebeb;
+    width: 95%;
+    height: 45px; 
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    color: #777;
+    background: #ebebeb;
+    width: 95%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 45px;
+}
+
+
+aside {
+    background: #ebebeb;
+    width: 320px;
+    height: 260px;
+    float: right;
+    padding-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer{
+    background: #ebebeb;
+    height: 12.5%;
+    border: 0px;
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+/* ID selectors */
+
+
+
+/* class selectors */
+/* clearfix - for floats and other formatting */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    }
